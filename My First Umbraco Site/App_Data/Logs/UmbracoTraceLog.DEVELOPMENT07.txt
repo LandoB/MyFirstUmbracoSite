@@ -928,3 +928,40 @@ _shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needF
  2016-06-08 14:55:29,585 [P52752/D2/T7] WARN  Umbraco.Web.UmbracoModule - Umbraco has no content
  2016-06-08 14:55:31,121 [P52752/D2/T12] INFO  umbraco.content - Save Xml to file...
  2016-06-08 14:55:31,132 [P52752/D2/T6] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-08 15:20:51,506 [P52752/D2/T57] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-06-08 15:20:51,534 [P52752/D2/T57] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 28ms)
+ 2016-06-08 15:20:51,858 [P52752/D2/T57] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username rbernaltvc from IP address ::1
+ 2016-06-08 15:21:09,789 [P52752/D2/T64] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rbernal@thevisibilitycompany.com from IP address ::1
+ 2016-06-08 15:21:09,789 [P52752/D2/T64] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rbernal@thevisibilitycompany.com logged in from IP address ::1
+ 2016-06-08 15:21:11,421 [P52752/D2/T62] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-06-08 15:21:11,455 [P52752/D2/T62] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 35ms)
+ 2016-06-08 15:21:22,965 [P52752/D2/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-06-08 15:21:22,991 [P52752/D2/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 26ms)
+ 2016-06-08 15:21:23,607 [P52752/D2/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-06-08 15:21:23,625 [P52752/D2/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 17ms)
+ 2016-06-08 15:21:23,840 [P52752/D2/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-06-08 15:21:23,870 [P52752/D2/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 29ms)
+ 2016-06-08 15:21:23,886 [P52752/D2/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-06-08 15:21:23,886 [P52752/D2/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-06-08 15:21:23,889 [P52752/D2/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-06-08 15:21:23,927 [P52752/D2/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 37ms)
+ 2016-06-08 15:21:50,775 [P52752/D2/T59] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-07 15:21:50
+ 2016-06-08 15:29:04,804 [P52752/D2/T86] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2016-06-08 15:29:04,819 [P52752/D2/T86] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 14ms)
+ 2016-06-08 15:29:04,928 [P52752/D2/T86] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-06-08 15:29:04,948 [P52752/D2/T86] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 19ms)
+ 2016-06-08 15:29:58,224 [P52752/D2/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Welcome' with Id '0' has been published.
+ 2016-06-08 15:30:03,158 [P52752/D2/T87] INFO  umbraco.content - Save Xml to file...
+ 2016-06-08 15:30:03,164 [P52752/D2/T87] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-08 15:38:04,903 [P52752/D2/T47] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Welcome' with Id '1052' has been published.
+ 2016-06-08 15:38:09,049 [P52752/D2/T87] INFO  umbraco.content - Save Xml to file...
+ 2016-06-08 15:38:09,063 [P52752/D2/T87] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-08 15:39:15,104 [P52752/D2/T47] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Welcome' with Id '1052' has been published.
+ 2016-06-08 15:39:19,324 [P52752/D2/T56] INFO  umbraco.content - Save Xml to file...
+ 2016-06-08 15:39:19,333 [P52752/D2/T87] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-08 15:41:39,738 [P52752/D2/T96] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Welcome' with Id '1052' has been published.
+ 2016-06-08 15:41:43,963 [P52752/D2/T96] INFO  umbraco.content - Save Xml to file...
+ 2016-06-08 15:41:43,980 [P52752/D2/T96] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-08 15:46:51,034 [P52752/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Welcome' with Id '1052' has been published.
+ 2016-06-08 15:46:55,452 [P52752/D2/T96] INFO  umbraco.content - Save Xml to file...
+ 2016-06-08 15:46:55,461 [P52752/D2/T96] INFO  umbraco.content - Saved Xml to file.
