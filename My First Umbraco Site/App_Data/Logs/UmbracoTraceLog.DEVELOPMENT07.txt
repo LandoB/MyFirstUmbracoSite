@@ -78,3 +78,10 @@
  2016-06-09 09:46:58,623 [P52752/D2/T119] INFO  umbraco.content - Saved Xml to file.
  2016-06-09 09:50:07,344 [P52752/D2/T110] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
  2016-06-09 09:50:07,344 [P52752/D2/T110] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-06-09 10:07:17,991 [P52752/D2/T186] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: rbernal@thevisibilitycompany.com, IP Address: ::1
+ 2016-06-09 10:08:22,365 [P52752/D2/T236] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rbernal@thevisibilitycompany.com from IP address ::1
+ 2016-06-09 10:08:22,365 [P52752/D2/T236] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rbernal@thevisibilitycompany.com logged in from IP address ::1
+ 2016-06-09 10:15:21,549 [P52752/D2/T166] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-06-09 10:15:21,549 [P52752/D2/T166] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-06-09 10:19:17,830 [P52752/D2/T189] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-06-09 10:19:17,830 [P52752/D2/T189] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
