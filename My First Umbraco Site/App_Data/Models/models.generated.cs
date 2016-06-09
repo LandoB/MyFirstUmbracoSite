@@ -18,7 +18,7 @@ using Umbraco.Web;
 using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
-[assembly: PureLiveAssembly, System.Reflection.AssemblyVersion("0.0.0.2")]
+[assembly: PureLiveAssembly, System.Reflection.AssemblyVersion("0.0.0.5")]
 
 namespace Umbraco.Web.PublishedContentModels
 {
@@ -54,6 +54,24 @@ namespace Umbraco.Web.PublishedContentModels
 		public IHtmlString BodyText
 		{
 			get { return this.GetPropertyValue<IHtmlString>("bodyText"); }
+		}
+
+		///<summary>
+		/// Promo Text
+		///</summary>
+		[ImplementPropertyType("promoText")]
+		public IHtmlString PromoText
+		{
+			get { return this.GetPropertyValue<IHtmlString>("promoText"); }
+		}
+
+		///<summary>
+		/// Title
+		///</summary>
+		[ImplementPropertyType("title")]
+		public object Title
+		{
+			get { return this.GetPropertyValue("title"); }
 		}
 	}
 
