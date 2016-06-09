@@ -49,3 +49,32 @@
  2016-06-09 09:32:54,076 [P52752/D2/T26] INFO  umbraco.content - Saved Xml to file.
  2016-06-09 09:33:58,812 [P52752/D2/T239] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
  2016-06-09 09:33:58,812 [P52752/D2/T239] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-06-09 09:37:36,003 [P52752/D2/T215] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-06-09 09:37:36,003 [P52752/D2/T215] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-06-09 09:41:30,673 [P52752/D2/T115] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2016-06-09 09:43:52,571 [P52752/D2/T252] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-06-09 09:43:52,571 [P52752/D2/T252] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-06-09 09:44:50,924 [P52752/D2/T111] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'News' with Id '0' has been published.
+ 2016-06-09 09:44:55,206 [P52752/D2/T110] INFO  umbraco.content - Save Xml to file...
+ 2016-06-09 09:44:55,214 [P52752/D2/T111] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-09 09:45:14,995 [P52752/D2/T252] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Creative' with Id '0' has been published.
+ 2016-06-09 09:45:19,278 [P52752/D2/T111] INFO  umbraco.content - Save Xml to file...
+ 2016-06-09 09:45:19,282 [P52752/D2/T111] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-09 09:45:31,244 [P52752/D2/T219] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sagacious' with Id '0' has been published.
+ 2016-06-09 09:45:35,506 [P52752/D2/T111] INFO  umbraco.content - Save Xml to file...
+ 2016-06-09 09:45:35,512 [P52752/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-09 09:45:47,202 [P52752/D2/T247] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Intuitive' with Id '0' has been published.
+ 2016-06-09 09:45:51,421 [P52752/D2/T24] INFO  umbraco.content - Save Xml to file...
+ 2016-06-09 09:45:51,438 [P52752/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-09 09:46:13,721 [P52752/D2/T111] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Auspicious' with Id '0' has been published.
+ 2016-06-09 09:46:17,954 [P52752/D2/T252] INFO  umbraco.content - Save Xml to file...
+ 2016-06-09 09:46:17,962 [P52752/D2/T18] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-09 09:46:28,211 [P52752/D2/T266] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Excellent' with Id '0' has been published.
+ 2016-06-09 09:46:32,445 [P52752/D2/T266] INFO  umbraco.content - Save Xml to file...
+ 2016-06-09 09:46:32,471 [P52752/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-09 09:46:50,589 [P52752/D2/T252] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Adventurous' with Id '0' has been published.
+ 2016-06-09 09:46:54,384 [P52752/D2/T111] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Adventurous' with Id '1074' has been published.
+ 2016-06-09 09:46:58,618 [P52752/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2016-06-09 09:46:58,623 [P52752/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-09 09:50:07,344 [P52752/D2/T110] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-06-09 09:50:07,344 [P52752/D2/T110] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
