@@ -3,3 +3,30 @@
 @{
 	Layout = null;
 }
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Umbraco Site</title>
+</head>
+<body>
+    <div id="sidebar">
+        <img src="~/img/batman.jpg" alt="headshot" class="Headshot of Batman" />
+        <span id="username">The Batman</span>
+        <ul class="nav">
+            <li class="active"><a asp-controller="App" asp-action="Index">Home</a></li>
+            <li><a asp-controller="App" asp-action="About">About</a></li>
+            <li><a asp-controller="App" asp-action="Contact">Contact</a></li>
+        </ul>
+    </div>
+		<div id="wrapper">
+			<h1>@Umbraco.Field("pageName")</h1>
+			<div class="top_left_cont zoomIn wow animated animated animated" id="logo" style="visibility: visible; animation-name: zoomIn;">
+			<img class="img-circle" src="assets/img/roly1.jpg" alt="Roly's sketch picture">
+			<h1 class="hola">Hola!</h1><br>
+			<h2>I am Rolando Bernal <br><strong>A UI &amp; UX Digital Product Designer &amp; Developer based in Music City USA</strong></h2>
+			@Umbraco.Field("bodyText")
+		</div>
+    </div>
+</body>
+</html>
+
