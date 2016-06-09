@@ -13,3 +13,39 @@
  2016-06-09 08:34:14,764 [P52752/D2/T113] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Welcome' with Id '1052' has been published.
  2016-06-09 08:34:19,015 [P52752/D2/T96] INFO  umbraco.content - Save Xml to file...
  2016-06-09 08:34:19,021 [P52752/D2/T96] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-09 08:43:53,815 [P52752/D2/T140] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: rbernal@thevisibilitycompany.com, IP Address: ::1
+ 2016-06-09 09:00:39,376 [P52752/D2/T242] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rbernal@thevisibilitycompany.com from IP address ::1
+ 2016-06-09 09:00:39,376 [P52752/D2/T242] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rbernal@thevisibilitycompany.com logged in from IP address ::1
+ 2016-06-09 09:01:48,453 [P52752/D2/T244] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-06-09 09:01:48,453 [P52752/D2/T244] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-06-09 09:03:07,045 [P52752/D2/T268] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-06-09 09:03:07,046 [P52752/D2/T268] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-06-09 09:05:06,230 [P52752/D2/T227] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-06-09 09:05:06,230 [P52752/D2/T227] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-06-09 09:05:36,865 [P52752/D2/T244] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-06-09 09:05:36,865 [P52752/D2/T244] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-06-09 09:07:07,127 [P52752/D2/T249] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-06-09 09:07:07,127 [P52752/D2/T249] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-06-09 09:08:10,344 [P52752/D2/T250] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Welcome' with Id '0' has been published.
+ 2016-06-09 09:08:14,552 [P52752/D2/T96] INFO  umbraco.content - Save Xml to file...
+ 2016-06-09 09:08:14,558 [P52752/D2/T96] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-09 09:08:22,192 [P52752/D2/T254] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Welcome (1)' with Id '1055' has been unpublished.
+ 2016-06-09 09:08:26,369 [P52752/D2/T250] INFO  umbraco.content - Save Xml to file...
+ 2016-06-09 09:08:26,379 [P52752/D2/T250] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-09 09:08:58,647 [P52752/D2/T96] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-06-09 09:08:58,647 [P52752/D2/T96] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-06-09 09:11:50,993 [P52752/D2/T244] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-06-09 09:11:50,994 [P52752/D2/T244] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-06-09 09:13:29,060 [P52752/D2/T20] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Welcome' with Id '1052' has been published.
+ 2016-06-09 09:13:33,283 [P52752/D2/T24] INFO  umbraco.content - Save Xml to file...
+ 2016-06-09 09:13:33,293 [P52752/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-09 09:31:15,665 [P52752/D2/T130] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-06-09 09:31:15,665 [P52752/D2/T130] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-06-09 09:32:30,817 [P52752/D2/T20] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About us' with Id '0' has been published.
+ 2016-06-09 09:32:35,095 [P52752/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2016-06-09 09:32:35,102 [P52752/D2/T26] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-09 09:32:49,841 [P52752/D2/T14] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact us' with Id '0' has been published.
+ 2016-06-09 09:32:54,071 [P52752/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2016-06-09 09:32:54,076 [P52752/D2/T26] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-09 09:33:58,812 [P52752/D2/T239] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-06-09 09:33:58,812 [P52752/D2/T239] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
