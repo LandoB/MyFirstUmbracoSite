@@ -7,7 +7,7 @@ using  Umbraco.Core.Models.PublishedContent;
 using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
-[assembly: PureLiveAssembly, System.Reflection.AssemblyVersion("0.0.0.1")]
+[assembly: PureLiveAssembly, System.Reflection.AssemblyVersion("0.0.0.2")]
 
 
 // FILE: models.generated.cs
@@ -86,6 +86,33 @@ namespace Umbraco.Web.PublishedContentModels
 		public IHtmlString PromoText
 		{
 			get { return this.GetPropertyValue<IHtmlString>("promoText"); }
+		}
+
+		///<summary>
+		/// Site Footer
+		///</summary>
+		[ImplementPropertyType("siteFooter")]
+		public IHtmlString SiteFooter
+		{
+			get { return this.GetPropertyValue<IHtmlString>("siteFooter"); }
+		}
+
+		///<summary>
+		/// Site Tagline
+		///</summary>
+		[ImplementPropertyType("siteTagline")]
+		public string SiteTagline
+		{
+			get { return this.GetPropertyValue<string>("siteTagline"); }
+		}
+
+		///<summary>
+		/// Site Title
+		///</summary>
+		[ImplementPropertyType("siteTitle")]
+		public string SiteTitle
+		{
+			get { return this.GetPropertyValue<string>("siteTitle"); }
 		}
 
 		///<summary>
