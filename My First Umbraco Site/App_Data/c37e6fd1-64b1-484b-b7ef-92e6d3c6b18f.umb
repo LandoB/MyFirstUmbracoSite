@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>FontAwesomeIconsDD.controller.js</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconsDD</orgPath>
+      <orgName>FontAwesomeIconsDD.controller.js</orgName>
+    </file>
+    <file>
+      <guid>FontAwesomeIconsDD.html</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconsDD</orgPath>
+      <orgName>FontAwesomeIconsDD.html</orgName>
+    </file>
+    <file>
+      <guid>package.manifest</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconsDD</orgPath>
+      <orgName>package.manifest</orgName>
+    </file>
+    <file>
+      <guid>font-awesome.css</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconsDD/assets/font-awesome/css</orgPath>
+      <orgName>font-awesome.css</orgName>
+    </file>
+    <file>
+      <guid>font-awesome.min.css</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconsDD/assets/font-awesome/css</orgPath>
+      <orgName>font-awesome.min.css</orgName>
+    </file>
+    <file>
+      <guid>fontawesome-webfont.eot</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconsDD/assets/font-awesome/fonts</orgPath>
+      <orgName>fontawesome-webfont.eot</orgName>
+    </file>
+    <file>
+      <guid>fontawesome-webfont.svg</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconsDD/assets/font-awesome/fonts</orgPath>
+      <orgName>fontawesome-webfont.svg</orgName>
+    </file>
+    <file>
+      <guid>fontawesome-webfont.ttf</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconsDD/assets/font-awesome/fonts</orgPath>
+      <orgName>fontawesome-webfont.ttf</orgName>
+    </file>
+    <file>
+      <guid>fontawesome-webfont.woff</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconsDD/assets/font-awesome/fonts</orgPath>
+      <orgName>fontawesome-webfont.woff</orgName>
+    </file>
+    <file>
+      <guid>fontawesome-webfont.woff2</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconsDD/assets/font-awesome/fonts</orgPath>
+      <orgName>fontawesome-webfont.woff2</orgName>
+    </file>
+    <file>
+      <guid>FontAwesome.otf</guid>
+      <orgPath>/App_Plugins/FontAwesomeIconsDD/assets/font-awesome/fonts</orgPath>
+      <orgName>FontAwesome.otf</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Font Awesome Icons Dropdown</name>
+      <version>1.1</version>
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+      <url>https://our.umbraco.org/projects/backoffice-extensions/fontawesome-icons-dropdown/</url>
+      <requirements>
+        <major>3</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Christopher Pascual</name>
+      <website>https://our.umbraco.org/member/149985</website>
+    </author>
+    <readme><![CDATA[This is a dropdown box loaded with font awesome icons, in case someone needs it.
+
+The labels are unicode , while the values are the class name.
+
+
+This Project and the Developer is not connected in anyway with the Font-Awesome Team.
+
+No copyright infringement intended , if this package violates any law , please reach me
+at : chrisadi.pascual@gmail.com to take anything offline.]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes>
+    <DataType Name="Font Awesome Icons Dropdown" Id="FontAwesomeIconsDD" Definition="5dfdaed3-28a4-47ce-893b-8c25dfc497b5" DatabaseType="Ntext">
+      <PreValues />
+    </DataType>
+  </DataTypes>
+</umbPackage>
