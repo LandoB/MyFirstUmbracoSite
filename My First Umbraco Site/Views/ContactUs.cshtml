@@ -1,5 +1,8 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.ContactUs>
 @using ContentModels = Umbraco.Web.PublishedContentModels;
 @{
-	Layout = null;
+	Layout = "SiteLayout.cshtml";
 }
+
+@Umbraco.Field("bodyText")
+@Umbraco.RenderMacro("FormsRenderForm", new {FormGuid="4f3978b1-46b3-4cd4-bb64-32650165532d"})

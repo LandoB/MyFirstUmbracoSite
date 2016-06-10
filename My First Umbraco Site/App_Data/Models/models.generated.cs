@@ -18,7 +18,7 @@ using Umbraco.Web;
 using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
-[assembly: PureLiveAssembly, System.Reflection.AssemblyVersion("0.0.0.2")]
+[assembly: PureLiveAssembly, System.Reflection.AssemblyVersion("0.0.0.3")]
 
 namespace Umbraco.Web.PublishedContentModels
 {
@@ -81,6 +81,15 @@ namespace Umbraco.Web.PublishedContentModels
 		public IHtmlString SiteFooter
 		{
 			get { return this.GetPropertyValue<IHtmlString>("siteFooter"); }
+		}
+
+		///<summary>
+		/// Site Logo
+		///</summary>
+		[ImplementPropertyType("siteLogo")]
+		public object SiteLogo
+		{
+			get { return this.GetPropertyValue("siteLogo"); }
 		}
 
 		///<summary>
@@ -344,6 +353,86 @@ namespace Umbraco.Web.PublishedContentModels
 
 		/// <summary>Static getter for Meta Title</summary>
 		public static string GetMetaTitle(ISEO that) { return that.GetPropertyValue<string>("metaTitle"); }
+	}
+
+	/// <summary>Contact us</summary>
+	[PublishedContentModel("contactUs")]
+	public partial class ContactUs : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "contactUs";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public ContactUs(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<ContactUs, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Body Text
+		///</summary>
+		[ImplementPropertyType("bodyText")]
+		public IHtmlString BodyText
+		{
+			get { return this.GetPropertyValue<IHtmlString>("bodyText"); }
+		}
+
+		///<summary>
+		/// Email Address
+		///</summary>
+		[ImplementPropertyType("emailAddress")]
+		public object EmailAddress
+		{
+			get { return this.GetPropertyValue("emailAddress"); }
+		}
+
+		///<summary>
+		/// First Name
+		///</summary>
+		[ImplementPropertyType("firstName")]
+		public string FirstName
+		{
+			get { return this.GetPropertyValue<string>("firstName"); }
+		}
+
+		///<summary>
+		/// Last Name
+		///</summary>
+		[ImplementPropertyType("lastName")]
+		public string LastName
+		{
+			get { return this.GetPropertyValue<string>("lastName"); }
+		}
+
+		///<summary>
+		/// Message
+		///</summary>
+		[ImplementPropertyType("message")]
+		public string Message
+		{
+			get { return this.GetPropertyValue<string>("message"); }
+		}
+
+		///<summary>
+		/// Telephone
+		///</summary>
+		[ImplementPropertyType("telephone")]
+		public string Telephone
+		{
+			get { return this.GetPropertyValue<string>("telephone"); }
+		}
 	}
 
 	/// <summary>Folder</summary>
