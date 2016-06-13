@@ -7,7 +7,7 @@ using  Umbraco.Core.Models.PublishedContent;
 using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
-[assembly: PureLiveAssembly, System.Reflection.AssemblyVersion("0.0.0.1")]
+[assembly: PureLiveAssembly, System.Reflection.AssemblyVersion("0.0.0.2")]
 
 
 // FILE: models.generated.cs
@@ -401,51 +401,6 @@ namespace Umbraco.Web.PublishedContentModels
 		public IHtmlString BodyText
 		{
 			get { return this.GetPropertyValue<IHtmlString>("bodyText"); }
-		}
-
-		///<summary>
-		/// Email Address
-		///</summary>
-		[ImplementPropertyType("emailAddress")]
-		public object EmailAddress
-		{
-			get { return this.GetPropertyValue("emailAddress"); }
-		}
-
-		///<summary>
-		/// First Name
-		///</summary>
-		[ImplementPropertyType("firstName")]
-		public string FirstName
-		{
-			get { return this.GetPropertyValue<string>("firstName"); }
-		}
-
-		///<summary>
-		/// Last Name
-		///</summary>
-		[ImplementPropertyType("lastName")]
-		public string LastName
-		{
-			get { return this.GetPropertyValue<string>("lastName"); }
-		}
-
-		///<summary>
-		/// Message
-		///</summary>
-		[ImplementPropertyType("message")]
-		public string Message
-		{
-			get { return this.GetPropertyValue<string>("message"); }
-		}
-
-		///<summary>
-		/// Telephone
-		///</summary>
-		[ImplementPropertyType("telephone")]
-		public string Telephone
-		{
-			get { return this.GetPropertyValue<string>("telephone"); }
 		}
 	}
 

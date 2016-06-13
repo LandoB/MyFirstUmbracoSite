@@ -16,7 +16,7 @@
               "fields": [
                 {
                   "caption": "Name",
-                  "tooltip": null,
+                  "tooltip": "Your name",
                   "placeholder": null,
                   "cssClass": null,
                   "alias": "name",
@@ -24,20 +24,26 @@
                   "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
                   "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
                   "dataSourceFieldKey": null,
-                  "mandatory": false,
+                  "mandatory": true,
                   "regex": null,
-                  "requiredErrorMessage": null,
+                  "requiredErrorMessage": "Name field is mandatory. Please enter your name.",
                   "invalidErrorMessage": null,
-                  "condition": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
                   "settings": {
                     "DefaultValue": "",
-                    "Placeholder": ""
+                    "Placeholder": "i.e. John Doe"
                   },
                   "preValues": []
                 },
                 {
                   "caption": "Email",
-                  "tooltip": null,
+                  "tooltip": "Your email address",
                   "placeholder": null,
                   "cssClass": null,
                   "alias": "email",
@@ -45,20 +51,26 @@
                   "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
                   "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
                   "dataSourceFieldKey": null,
-                  "mandatory": false,
-                  "regex": null,
-                  "requiredErrorMessage": null,
-                  "invalidErrorMessage": null,
-                  "condition": null,
+                  "mandatory": true,
+                  "regex": "[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+",
+                  "requiredErrorMessage": "Email field is mandatory. Please enter your email address.",
+                  "invalidErrorMessage": "The Email Address you entered is invalid. Please try again.",
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
                   "settings": {
                     "DefaultValue": "",
-                    "Placeholder": ""
+                    "Placeholder": "i.e. me@example.com"
                   },
                   "preValues": []
                 },
                 {
                   "caption": "Message",
-                  "tooltip": null,
+                  "tooltip": "Your message",
                   "placeholder": null,
                   "cssClass": null,
                   "alias": "message",
@@ -96,8 +108,8 @@
   "hideFieldValidation": false,
   "requiredErrorMessage": "Please provide a value for {0}",
   "invalidErrorMessage": "Please provide a valid value for {0}",
-  "messageOnSubmit": "Thank you",
-  "goToPageOnSubmit": 0,
+  "messageOnSubmit": "Thank you. Your message has been sent.",
+  "goToPageOnSubmit": 1052,
   "xPathOnSubmit": null,
   "manualApproval": false,
   "storeRecordsLocally": true,
