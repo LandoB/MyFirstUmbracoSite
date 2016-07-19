@@ -1,3 +1,95 @@
-﻿ 2016-06-13 07:22:12,047 [P52752/D11/T159] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-12 07:22:12
- 2016-06-13 09:08:43,833 [P52752/D11/T178] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rbernal@thevisibilitycompany.com from IP address ::1
- 2016-06-13 09:08:43,833 [P52752/D11/T178] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rbernal@thevisibilitycompany.com logged in from IP address ::1
+﻿ 2016-07-19 09:41:01,674 [P10660/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.3 application starting on DEVELOPMENT07
+ 2016-07-19 09:41:01,851 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-07-19 09:41:01,919 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 70ms)
+ 2016-07-19 09:41:02,003 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-07-19 09:41:02,030 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 26ms)
+ 2016-07-19 09:41:02,220 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-07-19 09:41:02,223 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2016-07-19 09:41:02,224 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-07-19 09:41:02,225 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2016-07-19 09:41:02,261 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-07-19 09:41:02,265 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+ 2016-07-19 09:41:02,265 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-07-19 09:41:02,276 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 10ms)
+ 2016-07-19 09:41:02,478 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-07-19 09:41:02,479 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-07-19 09:41:02,479 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-07-19 09:41:02,480 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-07-19 09:41:04,974 [P10660/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-19 09:41:05,795 [P10660/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-19 09:41:05,879 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-07-19 09:41:05,884 [P10660/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 4ms)
+ 2016-07-19 09:41:06,504 [P10660/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2016-07-19 09:41:06,536 [P10660/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-19 09:41:06,643 [P10660/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-07-19 09:41:06,667 [P10660/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-07-19 09:41:07,051 [P10660/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-07-19 09:41:07,124 [P10660/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5725ms)
+ 2016-07-19 09:41:10,601 [P10660/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54817/umbraco (UmbracoModule request)
+ 2016-07-19 09:41:11,158 [P10660/D2/T8] INFO  umbraco.content - Load Xml from file...
+ 2016-07-19 09:41:11,217 [P10660/D2/T8] INFO  umbraco.content - Loaded Xml from file.
+ 2016-07-19 09:41:12,773 [P10660/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-07-19 09:41:12,774 [P10660/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-07-19 09:41:24,094 [P10660/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-07-19 09:41:24,095 [P10660/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 0ms)
+ 2016-07-19 09:41:34,981 [P10660/D2/T16] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rbernal@thevisibilitycompany.com from IP address ::1
+ 2016-07-19 09:41:34,983 [P10660/D2/T16] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rbernal@thevisibilitycompany.com logged in from IP address ::1
+ 2016-07-19 09:41:35,380 [P10660/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-07-19 09:41:35,381 [P10660/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-07-19 09:41:36,087 [P10660/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-07-19 09:41:36,088 [P10660/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-07-19 09:41:36,167 [P10660/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-07-19 09:41:36,168 [P10660/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-07-19 09:41:36,184 [P10660/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-07-19 09:41:36,184 [P10660/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-07-19 09:41:36,187 [P10660/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-07-19 09:41:36,188 [P10660/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-07-19 09:42:12,176 [P10660/D2/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-18 09:42:11
+ 2016-07-19 10:01:04,573 [P10660/D2/T128] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: rbernal@thevisibilitycompany.com, IP Address: ::1
+ 2016-07-19 10:06:17,855 [P10660/D2/T164] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rbernal@thevisibilitycompany.com from IP address ::1
+ 2016-07-19 10:06:17,855 [P10660/D2/T164] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rbernal@thevisibilitycompany.com logged in from IP address ::1
+ 2016-07-19 10:43:53,528 [P10660/D2/T170] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: rbernal@thevisibilitycompany.com, IP Address: ::1
+ 2016-07-19 11:44:23,841 [P10660/D2/T220] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rbernal@thevisibilitycompany.com from IP address ::1
+ 2016-07-19 11:44:23,841 [P10660/D2/T220] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rbernal@thevisibilitycompany.com logged in from IP address ::1
+ 2016-07-19 12:03:54,593 [P10660/D2/T215] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: rbernal@thevisibilitycompany.com, IP Address: ::1
+ 2016-07-19 12:52:17,354 [P10660/D2/T221] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rbernal@thevisibilitycompany.com from IP address ::1
+ 2016-07-19 12:52:17,354 [P10660/D2/T221] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rbernal@thevisibilitycompany.com logged in from IP address ::1
+ 2016-07-19 12:52:24,783 [P10660/D2/T151] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2016-07-19 12:54:56,359 [P10660/D2/T215] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-07-19 12:54:56,418 [P10660/D2/T215] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 58ms)
+ 2016-07-19 12:59:53,162 [P10660/D2/T152] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-07-19 12:59:53,163 [P10660/D2/T152] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-07-19 13:11:49,579 [P10660/D2/T131] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: rbernal@thevisibilitycompany.com, IP Address: ::1
+ 2016-07-19 13:21:18,197 [P10660/D2/T207] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rbernal@thevisibilitycompany.com from IP address ::1
+ 2016-07-19 13:21:18,197 [P10660/D2/T207] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rbernal@thevisibilitycompany.com logged in from IP address ::1
+ 2016-07-19 13:23:47,689 [P10660/D2/T186] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2016-07-19 13:26:49,632 [P10660/D2/T143] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '0' has been published.
+ 2016-07-19 13:26:54,152 [P10660/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2016-07-19 13:26:54,162 [P10660/D2/T182] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-19 13:27:41,697 [P10660/D2/T127] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1092' has been published.
+ 2016-07-19 13:27:41,697 [P10660/D2/T127] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About us' with Id '1059' has been published.
+ 2016-07-19 13:27:46,266 [P10660/D2/T137] INFO  umbraco.content - Save Xml to file...
+ 2016-07-19 13:27:46,275 [P10660/D2/T155] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-19 13:29:09,641 [P10660/D2/T145] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2016-07-19 13:30:15,741 [P10660/D2/T145] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2016-07-19 13:30:54,148 [P10660/D2/T148] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2016-07-19 13:30:54,149 [P10660/D2/T148] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 1ms)
+ 2016-07-19 13:31:14,223 [P10660/D2/T156] INFO  Umbraco.Core.Services.ContentService - Content 'Home' with Id '1092' could not be published because of invalid properties.
+ 2016-07-19 13:31:14,422 [P10660/D2/T156] INFO  Umbraco.Core.Services.ContentService - Call was made to ContentService.Publish, use PublishWithStatus instead since that method will provide more detailed information on the outcome
+ 2016-07-19 13:35:49,616 [P10660/D2/T189] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1092' has been published.
+ 2016-07-19 13:35:53,835 [P10660/D2/T146] INFO  umbraco.content - Save Xml to file...
+ 2016-07-19 13:35:53,849 [P10660/D2/T237] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-19 13:36:51,188 [P10660/D2/T140] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1092' has been published.
+ 2016-07-19 13:36:55,379 [P10660/D2/T216] INFO  umbraco.content - Save Xml to file...
+ 2016-07-19 13:36:55,397 [P10660/D2/T130] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-19 13:37:01,533 [P10660/D2/T140] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1092' has been published.
+ 2016-07-19 13:37:05,734 [P10660/D2/T142] INFO  umbraco.content - Save Xml to file...
+ 2016-07-19 13:37:05,754 [P10660/D2/T219] INFO  umbraco.content - Saved Xml to file.

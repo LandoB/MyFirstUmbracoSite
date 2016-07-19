@@ -1,0 +1,5 @@
+﻿ 2016-06-13 07:22:12,047 [P52752/D11/T159] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-12 07:22:12
+ 2016-06-13 09:08:43,833 [P52752/D11/T178] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rbernal@thevisibilitycompany.com from IP address ::1
+ 2016-06-13 09:08:43,833 [P52752/D11/T178] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rbernal@thevisibilitycompany.com logged in from IP address ::1
+ 2016-06-13 09:41:08,036 [P52752/D11/T333] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: rbernal@thevisibilitycompany.com, IP Address: ::1
+ 2016-06-13 11:23:51,195 [P52752/D11/T272] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-12 11:23:50
