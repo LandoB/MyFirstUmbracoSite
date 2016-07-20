@@ -77,6 +77,16 @@ textarea {
 	transition: left ease .25s;
 }
 
+.margin-left-extended {
+	margin-left: 50px !important;
+}
+
+.hide-show-btn {
+    padding: 0px 15px !important;
+    font-size: 3em !important;
+    margin-left: -15px !important;
+}
+
 #wrapper {
     margin: 0 0 0 250px;
     -moz-transition: margin-left ease .25s;

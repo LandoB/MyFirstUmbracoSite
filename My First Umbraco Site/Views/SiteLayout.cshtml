@@ -15,7 +15,8 @@
 </head>
 <body>
     <div id="sidebar">
-        <img src="@Url.Content("~/media/1007/rolando-bernal.jpg")" alt="headshot" class="headshot" />
+        @* <img src="@Url.Content("~/media/1007/rolando-bernal.jpg")" alt="headshot" class="headshot" /> *@
+		<div class="headshot">@Umbraco.Field("siteLogo", altFieldAlias: "siteLogo", altText: "Lando B Logo")</div>
         <span id="username">Lando B</span>
         @Umbraco.RenderMacro("NavBar")
     </div>
@@ -24,12 +25,12 @@
             <div class="container-fluid">
                 <ul class="nav navbar-nav navbar-left">
                     <li>
-                        <button id="sidebarToggle" class="btn btn-primary btn-sm">
+                        <button id="sidebarToggle" class="btn btn-primary btn-sm hide-show-btn">
                             <i class="fa fa-angle-left"></i>
                         </button>
                     </li>
                 </ul>
-                <a asp-controller="App" asp-action="Index" class="navbar-brand">@Umbraco.Field("siteTitle", recursive: true)</a>
+                <a asp-controller="App" asp-action="Index" class="navbar-brand margin-left-extended">@Umbraco.Field("siteTitle", recursive: true)</a>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="#" class="btn btn-sm btn-info">
