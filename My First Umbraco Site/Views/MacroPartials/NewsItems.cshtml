@@ -6,10 +6,8 @@
 
     @foreach (var item in selection)
     {
-        @Umbraco.Field("article", altText: "article title", casing: RenderFieldCaseType.Upper)
-		@* @item.Name *@
-        @item.Title
-        @item.Author
+        <h3>@item.Title</h3>
+        <h4>@item.Author</h4><br>
         @item.Article
 		<hr>
     }

@@ -812,3 +812,21 @@ System.Net.WebException: The remote server returned an error: (404) Not Found.
  2016-07-20 10:46:11,903 [P6728/D2/T24] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
  2016-07-20 10:46:34,589 [P6728/D2/T30] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
  2016-07-20 10:46:34,590 [P6728/D2/T30] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-07-20 11:02:06,165 [P6728/D2/T107] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: rbernal@thevisibilitycompany.com, IP Address: ::1
+ 2016-07-20 11:02:20,778 [P6728/D2/T96] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rbernal@thevisibilitycompany.com from IP address ::1
+ 2016-07-20 11:02:20,781 [P6728/D2/T96] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rbernal@thevisibilitycompany.com logged in from IP address ::1
+ 2016-07-20 11:06:05,291 [P6728/D2/T122] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sagacious' with Id '1070' has been published.
+ 2016-07-20 11:06:09,632 [P6728/D2/T17] INFO  umbraco.content - Save Xml to file...
+ 2016-07-20 11:06:09,642 [P6728/D2/T131] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-20 11:06:35,880 [P6728/D2/T109] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Intuitive' with Id '1071' has been published.
+ 2016-07-20 11:06:40,125 [P6728/D2/T132] INFO  umbraco.content - Save Xml to file...
+ 2016-07-20 11:06:40,132 [P6728/D2/T143] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-20 11:07:13,882 [P6728/D2/T112] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Auspicious' with Id '1072' has been published.
+ 2016-07-20 11:07:18,162 [P6728/D2/T143] INFO  umbraco.content - Save Xml to file...
+ 2016-07-20 11:07:18,173 [P6728/D2/T125] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-20 11:07:45,814 [P6728/D2/T120] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Excellent' with Id '1073' has been published.
+ 2016-07-20 11:07:50,072 [P6728/D2/T41] INFO  umbraco.content - Save Xml to file...
+ 2016-07-20 11:07:50,079 [P6728/D2/T101] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-20 11:08:15,410 [P6728/D2/T107] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Adventurous' with Id '1074' has been published.
+ 2016-07-20 11:08:19,705 [P6728/D2/T108] INFO  umbraco.content - Save Xml to file...
+ 2016-07-20 11:08:19,716 [P6728/D2/T101] INFO  umbraco.content - Saved Xml to file.
