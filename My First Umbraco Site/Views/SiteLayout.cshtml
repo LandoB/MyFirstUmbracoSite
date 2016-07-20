@@ -17,13 +17,7 @@
     <div id="sidebar">
         <img src="@Url.Content("~/media/1007/rolando-bernal.jpg")" alt="headshot" class="headshot" />
         <span id="username">Lando B</span>
-        <ul class="nav">
-            <li class="active"><a asp-controller="App" asp-action="Index">Home</a></li>
-            <li><a asp-controller="App" asp-action="About">About</a></li>
-			<li><a asp-controller="App" asp-action="About">News</a></li>
-			<li><a asp-controller="App" asp-action="About">Blog</a></li>
-            <li><a asp-controller="App" asp-action="Contact">Contact</a></li>
-        </ul>
+        @Umbraco.RenderMacro("NavBar")
     </div>
     <div id="wrapper">
         <nav class="navbar navbar-inverse">
