@@ -4,5 +4,12 @@
 	Layout = "SiteLayout.cshtml";
 }
 
-@Umbraco.Field("bodyText")
-@Umbraco.RenderMacro("FormsRenderForm", new {FormGuid="4f3978b1-46b3-4cd4-bb64-32650165532d"})
+<div class="row">
+	<div class="col-lg-6">
+		@Umbraco.Field("bodyText")		
+	</div>
+	<div class="col-lg-6">
+		@Umbraco.RenderMacro("FormsRenderForm", new {FormGuid="4f3978b1-46b3-4cd4-bb64-32650165532d"})		
+	</div>
+</div>
+
